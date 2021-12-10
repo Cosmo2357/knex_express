@@ -1,8 +1,8 @@
 <p align="center">
-<strong>Announcement 📣</strong><br/>Hi! This is a very simple TypeScript Express server boiler Plate<br/>
+<strong>Announcement 📣</strong><br/>nothing much😅<br/>
 </p>
 
-### Node.js Express Sever Boiler Plate
+### Simple Boilerplate of TypeScript Express Server + ESLint + Prettier
 
 - Express
 - ESLint
