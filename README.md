@@ -9,8 +9,9 @@
 - Prettier
 - dotenv
 
-```bash
+
 # Git Clone
+```bash
 git clone https://github.com/Cosmo2357/express-boiler-plate.git
 
 ```
