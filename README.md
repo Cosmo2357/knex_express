@@ -15,3 +15,11 @@
 git clone https://github.com/Cosmo2357/express-boiler-plate.git
 
 ```
+
+
+
+```bash
+npx knex init 
+
+npx knex migrate:make init --migrations-directory db/migrations
+```
