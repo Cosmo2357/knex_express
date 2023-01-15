@@ -1,6 +1,4 @@
-<p align="center">
-<strong>Announcement 📣</strong><br/>nothing much😅<br/>
-</p>
+
 
 ## Simple Boilerplate of TypeScript Express Server + ESLint + Prettier
 
