@@ -7,14 +7,71 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+name: Installation Issue
+description: Report issues installing the pandas library on your system
+title: "BUILD: "
+labels: [Build, Needs Triage]
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+body:
+  - type: checkboxes
+    id: checks
+    attributes:
+      options:
+        - label: >
+            I have read the [installation guide](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#installing-pandas).
+          required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: >
+        Please provide the output of ``import platform; print(platform.platform())``
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: Installation Method
+      description: >
+        Please provide how you tried to install pandas from a clean environment.
+      options:
+        - pip install
+        - conda install
+        - apt-get install
+        - Built from source
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: pandas
+    attributes:
+      label: pandas Version
+      description: >
+        Please provide the version of pandas you are trying to install.
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python Version
+      description: >
+        Please provide the installed version of Python.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Installation Logs
+      description: >
+        If possible, please copy and paste the installation logs when attempting to install pandas.
+      value: >
+        <details>
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+
+        Replace this line with the installation logs.
+
+
+        </details>
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
